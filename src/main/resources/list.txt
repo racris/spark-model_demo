@@ -1,0 +1,8 @@
+一、关于git提交代码报错:Push to origin/master was rejected
+    在git项目对应的目录位置右键打开Git Bash Here（注意项目目录的位置），然后在命令窗输入下面命令：
+
+     git pull origin master --allow-unrelated-histories
+
+     最后出现完成信息，则操作成功！再次Push代码，可以成功进行提交！！！
+
+     或者在idea的terminal界面直接输入以上命令，然后push代码
